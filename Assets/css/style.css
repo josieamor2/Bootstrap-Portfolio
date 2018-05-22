@@ -241,11 +241,11 @@ h1, h2, h3{
     color:#fff;
 }
 .nav-item.col-sm-4{
-    padding:10px 0;
+    margin:10px 0;
     text-align:center;
 }
 .nav-item.col-md-4{
-    padding:10px 0;
+    
     text-align:right;
     margin-right:50px;
     float:right;
@@ -275,9 +275,6 @@ nav li{
     color:#4aaaa5;
     padding-top:15px;
 }
-.about{
-    margin-top:20px;
-}
 
 .footer .navbar{
     background-color:#777;
@@ -287,4 +284,33 @@ nav li{
 .footer-text p{
     color:#fff;
     padding-top:10px;
+}
+.nav-item{
+    border-right:solid 1px #c3c3c3;
+}
+.nav-item.hidden{
+    border-right: none;
+}
+.row.middle{
+    padding-bottom:15px;
+}
+img{
+    width:100%;
+}
+.activities h3{
+    text-align: center;
+    margin-left: -15px;
+    position: absolute;
+    margin-top: -80px;
+    color: #fff;
+    padding:10px 0;
+    width: 100%;
+    background-color: #4aaaa5;
+
+}
+.activities{
+    margin-bottom:40px;
+}
+form{
+    padding:20px;
 }
